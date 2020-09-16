@@ -15,6 +15,10 @@ add_action('wp_enqueue_scripts','university_files');
 
 //this add title of each page in the browser tap
 function university_features(){
+    // register_nav_menu( 'headerMenuLocation', 'Header Menu Location' );
+    // register_nav_menu( 'footerFirstLocation', 'Footer First Location');
+    // register_nav_menu( 'footerSecondLocation', 'Footer Second Location');
+
     add_theme_support('title-tag');
 }
 
